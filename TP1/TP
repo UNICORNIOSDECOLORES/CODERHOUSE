@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> TP </title> 
+		<meta charset="utf-8">	
+	</head>
+	<body> 
+		<header> 
+		
+			<nav>
+				<ul> 
+					<li> 
+						<img src="LOGO"/>
+					</li> 
+
+					<li> 
+						<a href="http://"> HOME </a> 
+					</li> 
+					
+					<li> 
+						<a href="http://"> CONTACT </a> 
+					</li> 
+				
+				</ul>
+			</nav>
+		</header>
+
+		<section>
+
+			<nav> </nav>
+
+		</section> 		
+
+		<section>
+			<article> <img src=""/> Some text </article>
+			<article> <img src=""/> Some text </article>			
+			<article> <img src=""/> Some text </article>
+			<article> <img src=""/> Some text </article>
+		<section>
+
+		<h1> A Subtitle </h1>
+		<p>Some text</p>
+		<article> <img src=""/> Some text </article>
+		<article> <img src=""/> Some text </article>			
+		<article> <img src=""/> Some text </article>
+		<article> <img src=""/> Some text </article>
+		<article> <img src=""/> Some text </article>
+		<article> <img src=""/> Some text </article>
+		<div> 
+			<h1>  </h1>
+		</div>
+
+		<section>
+			<article> <img src=""/> Some text $95</article>
+			<article> <img src=""/> Some text $95</article>			
+			<article> <img src=""/> Some text $95</article>
+			<article> <img src=""/> Some text $95</article>
+		<section>
+
+		<section>
+			<p>Hosting use 500,000 happy customers. Whant to see services?</p>
+		<section>
+	<footer>
+<		ul> 
+			<li> Some text </li> 
+			<li> <a href="http://"> Home </a> </li>
+			<li> <a href="http://"> Contact </a> </li>  
+		</ul> 
+	</footer>
+	
+
+		</body>
+</html>
