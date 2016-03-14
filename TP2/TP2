@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> TP 2 </title> 
+		<meta charset="utf-8">	
+	</head>
+	<body> 
+		<header> 
+		
+			<nav>
+				<ul> 
+					<li> 
+						<img src="LOGO"/>
+					</li> 
+
+					<li> 
+						<a href="http://"> HOME </a> 
+					</li> 
+					
+					<li> 
+						<a href="http://"> CONTACT </a> 
+					</li> 
+				
+				</ul>
+			</nav>
+		</header>
+
+		<section> 
+			<form action="" method="post">
+				<input type="text" placeholder="Enter your domain name and hit enter" name="domain" id="domain"/>
+				
+				<input type="submit" value="Search">
+			</form>
+					
+		</section> 		
+
+		<section>
+			<ul>
+				<li> <img src="link1"/> 
+					<h4>Some text</h4>
+					<p>A <l> paragraph </l> of text with an </p>
+					<p>A second <ins>row</ins> of <del>text</del> with a</p>
+
+				</li>
+				
+				<li> <img src="link2"/> 
+					<h4>Some text</h4>
+					<p>A <l> paragraph </l> of text with an </p>
+					<p>A second <ins>row</ins> of <del>text</del> with a</p>
+				</li>
+				
+				<li> <img src="link3"/> 
+					<h4>Some text</h4>
+					<p>A <l> paragraph </l> of text with an </p>
+					<p>A second <ins>row</ins> of <del>text</del> with a</p>
+				</li>
+				
+				<li> <img src="link4"/> 
+					<h4>Some text</h4>
+					<p>A <l> paragraph </l> of text with an </p>
+					<p>A second <ins>row</ins> of <del>text</del> with a</p>
+				</li>
+			</ul>
+		<section>
+
+		<h2> A Subtitle </h2>
+		<p>Some text</p>
+			<ul>
+				<li> <img src="link5"/> 
+					<h4>Some text</h4>
+					<p>gjoagjojogjaigjojaogij </p>
+					<p>glkmlagmlamlgmalmglam</p>
+				</li>
+
+				<li> <img src="link6"/> 
+					<h4>Some text</h4>
+					<p>gjoagjojogjaigjojaogij </p>
+					<p>glkmlagmlamlgmalmglam</p>
+				</li>
+
+				<li> <img src="link7"/> 
+					<h4>Some text</h4>
+					<p>gjoagjojogjaigjojaogij </p>
+					<p>glkmlagmlamlgmalmglam</p>
+				</li>
+				
+				<li> <img src="link8"/> 
+					<h4>Some text</h4>
+					<p>gjoagjojogjaigjojaogij </p>
+					<p>glkmlagmlamlgmalmglam</p>
+				</li>
+
+				<li> <img src="link9"/> 
+					<h4>Some text</h4>
+					<p>gjoagjojogjaigjojaogij </p>
+					<p>glkmlagmlamlgmalmglam</p>
+				</li>
+				
+				<li> <img src="link10"/> 
+					<h4>Some text</h4>
+					<p>gjoagjojogjaigjojaogij </p>
+					<p>glkmlagmlamlgmalmglam</p>
+				</li>
+			</ul>
+
+		<img src="smartphone">
+
+		<section> 
+			<h2>A Subtitle 2</h2>
+			<p>Some text</p>
+		</section>
+
+		<section>
+			<ul>
+				<li> <img src="link11"/> 
+					<p>Some text <span style="font-size:30px">$95 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p> <button>Button</button></p>
+				</li>
+
+				<li> <img src="link12"/> 
+					<p>Some text <span style="font-size:30px">$95 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p> <button>Button</button></p>
+				</li>
+
+				<li> <img src="link13"/> 
+					<p>Some text <span style="font-size:30px">$95 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p> <button>Button</button></p>
+				</li>
+
+				<li> <img src="link14"/> 
+					<p>Some text <span style="font-size:30px">$95 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p>Sometext 1 </p>
+					<p> <button>Button</button></p>
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<p>Hosting use <span style="color:blue">500,000 </span> happy customers. Whant to see services?</p>
+		<section>
+	
+		<footer>
+			<ul> 
+				<li> Some text </li> 
+				<li> <a href="http://"> Home </a> </li>
+				<li> <a href="http://"> Contact </a> </li>  
+			</ul> 
+		</footer>
+	
+		</body>
+</html>
