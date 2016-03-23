@@ -1,0 +1,79 @@
+ul{
+	list-style: none;
+}
+
+.principales, h4{
+	font-family: Raleway;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 3px
+}
+
+
+a:link{
+	text-decoration:none;
+	color: #333333
+	}	
+
+#banner1 {
+	height: 650px;
+	background-image:url("Imagenes/indexbanner-bg3.jpg") ;
+	}				
+
+h2 {
+	font-family: Raleway;
+	font-size: 28px;
+	}
+
+p {
+	font-family: Open Sans;
+	font-size: 12px
+}
+
+
+
+.Promociones{
+	background-color: #FFF;
+	border:solid 2px; 
+	border color: #666666;
+	width:220px;
+	height: 300px
+}
+
+
+#pie{
+	width: auto; 
+	height:100px; 	
+	background-color:#003366;
+}
+
+#pie>p{
+	font-family: Raleway;
+	font-weight: 300;
+    font-size: 20px;
+	color: #FFFFFF;
+}
+
+#pie>p>span{
+		font-family: Raleway;
+	font-weight: bold;
+    font-size: 20px;
+	color: #FFFFFF;
+
+}
+#pie2{
+	width: auto; 
+	height: 50px; 
+	background-color: #000033;
+}
+
+
+
+#pie2>ul>li{ 
+	font-family: Raleway;
+	font-size: 8px;
+	font-color: #FFFFFF;
+	}
+
+
+
