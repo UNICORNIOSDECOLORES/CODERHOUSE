@@ -2,78 +2,269 @@ ul{
 	list-style: none;
 }
 
+#primer-navegador<nav<ul<li<a {
+	text-decoration:none;
+	}
+
+	a:link{
+	text-decoration:none;
+	color: #132c40;
+	}	
+   
+   a:visited{
+	text-decoration:none;
+	color: #6c7580;
+	}	
+
+    a:hover{
+	text-decoration:none;
+	color: #132c40;
+	}	
+
+ 	a:active{
+	text-decoration:none;
+	color: #132c40;
+	}	
+
+	/*Al indicar distintas propiedades 
+	para los links en el nav de abajo 
+	me anula estas propiedades del primer
+	navegador. Probé de todo, poniendo clases
+	al div, no usando div, poniendo id y clases
+	al nav, en un momento funcionaron los 
+	dos juntos y luego de la nada no, así que 
+	finalmente me rendí no se pq 
+	no me identifica que son distintos 
+	<a>...??? */
+
+
 .principales, h4{
 	font-family: Raleway;
 	font-size: 11px;
 	font-weight: bold;
-	letter-spacing: 3px
+	letter-spacing: 3px;
+	
+	
+}
+
+#banner1>div>p{
+	height: 80px;
+	width:400px;
+	font-family: Open Sans;
+	font-size: 13px;
+	color: #fff; 
+	line-height: 24px;
+	margin-top: 25px;
 }
 
 
-a:link{
-	text-decoration:none;
-	color: #333333
-	}	
-
 #banner1 {
-	height: 650px;
+	height: 420px;
 	background-image:url("Imagenes/indexbanner-bg3.jpg") ;
-	}				
+	background-size: cover;
+	background-repeat: no-repeat;
+	}			
+
+#domain{
+	height: 70px;
+	width:550px;
+	background-color: #FFF;
+	font-family:Open Sans;
+	font-weight: lighter;
+	font-size: 12px;
+	padding:0px 15px;
+	border:none;
+	margin: none;
+}	
+
+#search{
+	height: 70px;
+	width:130px;
+	background-color: #00CCFF;
+	font-family:Open Sans;
+	font-size: 10px;
+	color: #fff;
+	font-weight: bold;
+	padding:2px 15px;
+	letter-spacing: 5px;
+	border:none;
+	margin: none;
+ 
+}
+
+h1 {
+	font-family: Raleway;
+	font-size: 28px;
+	color: #fff;
+	}
 
 h2 {
 	font-family: Raleway;
 	font-size: 28px;
+	color: #132c40;
+	font-weight: bold;
 	}
 
 p {
 	font-family: Open Sans;
-	font-size: 12px
+	font-size: 11px;
+	color: #132c40; 
+	font-weight: lighter;
+	letter-spacing: 0px;
 }
 
+#banner2{
+	height: 420px;
+	background-image: url("Imagenes/pricing-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	}			
 
-
-.Promociones{
-	background-color: #FFF;
-	border:solid 2px; 
-	border color: #666666;
-	width:220px;
-	height: 300px
-}
-
-
-#pie{
-	width: auto; 
-	height:100px; 	
-	background-color:#003366;
-}
-
-#pie>p{
+.precio{
 	font-family: Raleway;
-	font-weight: 300;
-    font-size: 20px;
-	color: #FFFFFF;
-}
-
-#pie>p>span{
-		font-family: Raleway;
+	font-size: 40px;
+	color: #132c40;
 	font-weight: bold;
-    font-size: 20px;
-	color: #FFFFFF;
-
-}
-#pie2{
-	width: auto; 
-	height: 50px; 
-	background-color: #000033;
-}
-
-
-
-#pie2>ul>li{ 
-	font-family: Raleway;
-	font-size: 8px;
-	font-color: #FFFFFF;
+	margin: 0px;
 	}
 
 
 
+sup { 
+    vertical-align: super;
+    font-size: 13px;
+}
+
+.mes{
+	font-family: Open Sans;
+	font-size: 10px;
+	color: #132c40;
+	font-weight: lighter;
+	margin: 1px;
+
+}
+
+.planmensual{
+	
+	font-family: Open Sans;
+	font-size: 11px;
+	color: #132c40; 
+	line-height: 26px
+}
+
+.turquesa{
+	color: #00CCFF;
+	font-weight:bold;
+	padding-left: 8px;
+}
+
+.amarillo{
+	color: #e8e613;
+	font-weight:bold;
+	padding-left: 8px;
+}
+
+.naranja{
+	color: #e87213;
+	font-weight:bold;
+	padding-left: 8px;
+}
+
+.rojo{
+	color: #f7220c;
+	font-weight:bold;
+	padding-left: 8px;
+}
+
+.ContenedorPromociones{
+	background-color: #FFF;
+	border color: red;
+	border:2px ;
+	border-style: solid;
+	border-color: #cecece; 
+	width:200px;
+	height: 320px
+}
+
+.selectplanbutton{
+	height: 40px;
+	width: 150px;
+	background-color: #00CCFF;
+	font-family:Open Sans;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	padding:2px 15px;
+	letter-spacing: 3px;
+	border:none;
+	border-radius: 5px;
+	}
+
+.pie{
+	width: auto; 
+	height:155px; 	
+	background-color:#142e3f;
+	text-align: center;
+	margin: none;
+	border:none;
+}
+
+.pie>p{
+	font-family: Raleway;
+	font-weight: lighter;
+    font-size: 20px;
+	color: #FFFFFF;
+}
+
+.pie>p>span{
+	font-family: Open Sans;
+	font-weight: bold;
+    font-size: 25px;
+	color: #09b1f8;
+
+}
+
+.pie2{
+	width: auto; 
+	height: 70px; 
+	background-color: #091722;
+	font-family: Raleway;
+	font-size: 10px;
+	
+	}
+
+
+
+.pie2>p{
+	color: #FFF;
+	margin:0;
+}
+
+.menufooter<a{
+	text-decoration:none;
+	}
+
+	a:link{
+	text-decoration:none;
+	color: #fff;
+	}	
+   
+   a:visited{
+	text-decoration:none;
+	color: #fff;
+	}	
+
+    a:hover{
+	text-decoration:none;
+	color: #00CCFF;
+	}	
+
+ 	a:active{
+	text-decoration:none;
+	color: #fff;
+	}	
+
+.ion-chevron-up{
+	font-size: 25px; 
+}
