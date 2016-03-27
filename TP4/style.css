@@ -2,6 +2,10 @@ ul{
 	list-style: none;
 }
 
+body {
+	margin: 0px 
+}
+
 .logo{
 	width: 150px;
 	margin: 20px;
@@ -16,13 +20,20 @@ ul{
 	color: #615e64;
 	}	
 
+ 
+	
+nav{
+	float: right;
+}
+
 .principales, h4{
 	font-family: Raleway;
 	font-size: 11px;
 	font-weight: bold;
 	letter-spacing: 3px;
-	
-	
+	display: inline-block;
+	margin: 20px;
+
 }
 
 #banner1>div>p{
@@ -203,22 +214,35 @@ sup {
 
 }
 
-.pie2{
-	width: auto; 
+#pie2{
+	width: 100%; 
 	height: 70px; 
 	background-color: #091722;
 	font-family: Raleway;
 	font-size: 10px;
-	
 	}
 
 
+.pfinal, .menufooter {
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+	
+	
+}
 
-.pie2>p{
+.pfinal{
+line-height: 70px;
+}
+.pfinal>p{
 	color: #FFF;
 	margin:0;
 }
 
+
+.menufooter{
+	float: right;
+}
 .menufooter a{
 	text-decoration:none;
 	color: #fff;
@@ -226,8 +250,14 @@ sup {
 
 .menufooter a:hover{
 	color: #00CCFF;
-	}		
+	}	
+
+.menufooter li{
+	margin: 0 20px 0 20px;
+	display: inline-block;
+}
 
 .ion-chevron-up{
 	font-size: 25px; 
 }
+
