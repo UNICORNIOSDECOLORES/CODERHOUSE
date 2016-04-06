@@ -123,7 +123,11 @@ section>p {
 
 .iconos:hover{
 	transform: scale(1.25);
+	-ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
 	transition:  1.3s ease-in-out;
+    -ms-transform:  1.3s ease-in-out;
+    -webkit-transform: 1.3s ease-in-out;
 } 
 
 
