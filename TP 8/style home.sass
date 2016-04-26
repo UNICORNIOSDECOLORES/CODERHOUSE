@@ -1,0 +1,432 @@
+$font-family-1: Raleway
+$font-family-2: Open Sans
+$azuloscuro: #132c40
+
+%estilocirculos
+	font-weight: bold
+	padding-left: 8px
+
+ul
+	list-style: none
+
+body 
+	margin: 0px 
+
+form
+	text-align: center
+	margin-top: 0px
+
+#banner1 
+	height: 420px
+	background-image: url("Imagenes/indexbanner-bg3.jpg") 
+	background-size: cover
+	background-repeat: no-repeat
+	position: relative
+
+#banner1
+	div
+		p
+			height: 80px
+			width: 400px
+			font-family: $font-family-2
+			font-size: 13px
+			color: #fff
+			line-height: 24px
+			margin-top: 0px
+
+#contenido
+	width: 800px
+	height: 130px
+	margin: 0px auto
+	position: absolute
+	bottom: 145px
+	left: 23%
+
+#contenido>h1, #contenido>p
+	margin: 0px
+ 
+form
+	display: inline-block
+	margin-top: 380px
+	position: absolute
+	right: 10%
+	left: 10%
+
+.titulocostado
+	margin-top: 110px
+	margin-left: 220px
+	margin-bottom: 0px
+	display: inline-block
+
+
+#search
+	height: 70px
+	width: 130px
+	background-color: #00CCFF
+	font-family: $font-family-2
+	font-size: 10px
+	color: #fff
+	font-weight: bold
+	padding: 2px 15px
+	letter-spacing: 5px
+	border: none
+	margin: none
+ 
+/*------------------*/
+
+h2 
+	font-family: $font-family-1
+	font-size: 28px
+	color: $azuloscuro
+	font-weight: bold
+	margin-top: 80px
+	
+
+p 
+	font-family: $font-family-2
+	font-size: 11px
+	color: $azuloscuro 
+	font-weight: lighter	
+	letter-spacing: 0px
+
+.lista 
+	p
+		width: 200px
+
+/*------------------*/
+
+section
+	p 
+		text-align: center
+		
+
+
+.listasmart
+	width: 1000px
+	height: 480px
+	margin: 100px auto	
+	margin-bottom: 0px
+	text-align: center
+
+.centrado, .iconos, .lista
+	text-align: center
+	display: inline-block
+	margin-right: 15px
+	
+
+
+.iconos:hover
+	transform: scale(1.25)
+	-ms-transform: scale(1.25)
+	-webkit-transform: scale(1.25)
+	transition: 1.3s ease-in-out
+	-ms-transform: 1.3s ease-in-out
+	-webkit-transform: 1.3s ease-in-out
+
+.lista 
+	img
+		margin: 40px
+ 
+.listacentrada
+	text-align: center
+	margin-top: 80px
+	padding: 0px
+
+.lista>img, .lista>h4, .lista>p
+	display: list-item
+
+/*------------------*/
+
+.lista2 
+	width: 250px
+	padding: 20px 50px 20px 0px
+	text-align: right
+
+.icono
+	width: 50px
+	margin: 0px 8px 40px 8px
+
+.lista2>p .lista2>h4
+	display: list-item
+	text-align: right
+	
+
+.listamadre1 
+	text-align: left
+	display: inline-block
+	float: left
+	width: 300px
+	padding-left: 0px
+	
+
+.listamadre1
+	.lista2
+		img
+			float: right
+			text-align: right
+			
+/*------------------*/
+
+#smartphone
+	width: 270px
+	
+/*------------------*/
+
+.lista3 
+	width: 250px
+	padding: 20px 50px 20px 0px
+
+.lista3>p .lista3>h4
+	display: list-item
+	text-align: left
+	
+.listamadre2 
+	text-align: right
+	display: inline-block
+	float: right
+	width: 300px
+	padding-left: 0px
+	
+	.lista3
+		img
+			float: left
+	
+	li
+		padding-left: 50px
+		padding-right: 0px
+
+h4
+	margin-left: 0px
+	margin-right: 0px
+
+/*------------------*/
+
+#banner2
+	height: 420px
+	background-image: url("Imagenes/pricing-bg.jpg")
+	background-size: contain
+	background-repeat: no-repeat
+	text-align: center
+	margin-bottom: 280px
+	margin-top: 0
+	padding-top: 120px
+
+.precio
+	font-family: $font-family-1
+	font-size: 40px
+	color: $azuloscuro
+	font-weight: bold
+	margin: 0px
+	
+sup 
+	vertical-align: super
+	font-size: 13px
+
+
+.mes
+	font-family: $font-family-2
+	font-size: 10px
+	color: $azuloscuro
+	font-weight: lighter
+	margin: 1px
+
+.planmensual
+	font-family: $font-family-2
+	font-size: 11px
+	color: $azuloscuro 
+	line-height: 26px
+
+table
+	margin: 20px auto
+
+.turquesa
+	@extend %estilocirculos	
+	color: #00CCFF
+
+.amarillo
+	@extend %estilocirculos	
+	color: #e8e613
+
+.naranja
+	@extend %estilocirculos	
+	color: #e87213
+
+.rojo
+	@extend %estilocirculos	
+	color: #f7220c
+
+.ContenedorPromociones
+	background-color: #FFF
+	border: 2px 
+	border-style: solid
+	border-color: #cecece
+	width: 200px
+	height: 380px
+	display: inline-block
+	margin: 20px
+	margin-bottom: 100px
+
+
+
+@media (max-width: 1000px)
+
+	#banner1 
+		background-position: center
+
+	#contenido
+		left: 5%
+
+	form
+		position: absolute
+		right: 1%
+		left: 1%
+
+	.centrado
+		width: 40%
+	
+	.lista p
+		width: auto
+	
+	#smartphone
+		width: 180px
+	
+	.listasmart
+		width: 100%	
+
+	.lista2 
+		width: 250px
+		padding: 20px 0px
+		
+	.listamadre1 
+		width: auto
+		
+	.lista3
+		width: 250px
+		padding: 20px 0px
+		
+	.listamadre2 
+		width: auto
+			
+	#banner2
+		background-position: top center
+		margin-bottom: 680px
+		padding-top: 50px
+		
+	.ContenedorPromociones
+		width: 35%
+		margin-bottom: 15px
+
+	.input
+		width: 350px
+	
+	.button
+		width: 80%
+		
+	#pie2
+		height: 140px
+		
+	#pfinal, #menufooter
+		display: block
+		text-align: center
+		margin: auto
+	
+	.nav
+		float: none
+		
+	#menufooter li.ocultar
+		display: none
+	
+	#menufooter ul
+		padding-left: 0px
+		padding-top: 20px
+
+	#pfinal
+		padding-top: 50px
+	
+	#banner2
+		h2
+			margin-top: 20px
+
+
+@media (max-width: 750px)
+
+	#primer-navegador 
+		float: none
+		display: block	
+		text-align: center
+	
+	.logo
+		display: block
+		margin: 30px auto
+	
+	.principales
+		display: list-item
+	
+	#contenido
+		display: none
+	
+	#banner1
+		background-image: none
+		height: 70px
+
+	.input
+		width: 300px
+	
+	form
+		display: block
+		position: relative
+		margin-top: 0px
+	
+	#smartphone
+		width: 280px
+
+	.listacentrada
+		margin-top: 30px
+	
+	.listasmart
+		height: 1320px
+		margin-top: 50px
+	
+	.listamadre1,  .listamadre2
+		float: left
+		clear: right
+		
+	.lista2>p, .lista2>h4 
+		display: list-item
+		text-align: left
+			
+	.listamadre1
+		.lista2
+			img 
+				float:left
+	
+	.lista2, .lista3
+		width: auto
+	
+	li
+		.lista2
+			padding-left: 50px
+	
+	#banner2
+		height: 350px
+	
+@media (max-width: 500px)
+
+	.input
+		width: 200px
+	
+	#search
+		width: 80px
+		letter-spacing: 1px
+	
+	.ion-search
+		display: none
+	
+	form
+		display: block
+		position: relative
+		margin-top: 0px
+	
+	.centrado
+		width: 80%
+	
